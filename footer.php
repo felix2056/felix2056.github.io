@@ -1,0 +1,12 @@
+<script src="js/vendor/jquery-1.11.2.min.js"></script>
+<script src="js/vendor/bootstrap.min.js"></script>
+<script src="js/jquery.magnific-popup.js"></script>
+<script src="js/jquery.mixitup.min.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/jquery.masonry.min.js"></script>
+<script src="css/slick/slick.js"></script>
+<script src="css/slick/slick.min.js"></script>
+<script src="js/bootsnav.js"></script>
+<script src="js/jquery-contact.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>

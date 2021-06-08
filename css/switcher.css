@@ -1,0 +1,90 @@
+/* =================================================================== */
+/* Styles Switcher
+====================================================================== */
+
+/*---------------------------------------
+    colors          
+-----------------------------------------*/
+.colors{}
+.blue { background: #19a3eb; }
+.deep-blue { background: #5170DD; }
+.royal-blue { background: #4183D7; }
+.grape { background-color: #76184c; }
+.grass { background-color: #1BBC9B; }
+.green { background-color: #33C961; }
+.orange{background:#E38722;}
+.radial-red{background:#F62459;}
+.yellow{background:#ffc400;}
+.red{background:#EF3D4A;}
+.slate{background:#6b798f;}
+.purple{background:#8848f6;}
+.cyan{background:#21bace;}
+
+
+.light {background-color: #fff;}
+.dark {background-color: #000;}
+
+#style-switcher h3 {
+    color:#fff;
+    font-size:15px;
+    margin: 10px 0 3px 10px
+}
+
+#style-switcher {
+    background: #222;
+    width:195px;
+    position:fixed;
+    top:220px;
+    z-index:9999;
+    left: -195px;
+    border-radius: 0 0 3px 0;
+}
+
+#style-switcher div {
+    padding:5px 10px;
+}
+
+#style-switcher h2 {
+    background: #333;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 0;
+    font-size: 14px;
+    padding: 6px 0 5px 10px;
+}
+
+#style-switcher h2 a {
+    display: block;
+    height: 41px;
+    position: absolute;
+    right: -39px;
+    top: 0;
+    width: 39px;
+    border-radius: 0 3px 3px 0;
+    background-color: rgb(43, 36, 36);
+    padding: 1px 8px;
+    font-size: 23px;
+    color: #fff;
+}
+
+.colors { list-style:none; margin:0px 0px 10px 0px; overflow: hidden}
+.colors li { float:left; margin:2px; }
+.colors li a { display: block; width:38px; height:35px; cursor: pointer;} 
+
+.layout-style select {
+    font-size: 14px;
+    width: 100%;
+    padding: 5px;
+    border: none;
+    margin:0 0 0 -5px;
+    color: #666;
+    cursor: pointer;
+}
+.colors li a.layout {
+    width: 70px;
+    border: white 2px solid;
+    padding: 5px;
+    margin: 0px 5px;
+    height: 40px;}
+
+@media only screen and (max-width: 1029px) {#style-switcher {display: none;}}
